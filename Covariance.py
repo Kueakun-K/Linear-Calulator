@@ -21,7 +21,7 @@ def covariance(std1,std2):
 NameTypeGame =["Adventure","Fighting","Moba","Puzzle","RPG","Shooting","Sport","Simulation","Strategy","Horror"]
     
 Adventure = [4.3333,4.4667,4.2000,4.1333,4.6667,4.6000,3.8667,3.4000,4.2667,
-            4.5333,4.4667,2.8667,3.5333,4.4667,3.8667,3.3333,4.6000,4.9333]
+            4.5333,4.4667,2.8667,3.5333,4.4667,3.8667,3.3333,4.6000,4.9333]   #Horror Puzzle Simulation
             
 Fighting = [4.4667,4.4000,3.7333,4.2000,3.1333,3.2000,4.8000,4.7333,3.2000,
             3.6000,3.0667,2.9333,3.0667,3.2000,4.4000,3.3333,4.4667,3.0000]   #Fighting RPG Moba
@@ -81,8 +81,6 @@ for j in range(10):
             count += 1
         else:
             break
-            
-
 
 count2 = 0
 for k in range(10):
